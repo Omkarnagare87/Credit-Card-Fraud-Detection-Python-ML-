@@ -1,64 +1,76 @@
-# 💳 Credit Card Fraud Detection System 🔐  
+# 💳 Credit Card Fraud Detection System 🔐
 
-A Machine Learning + Streamlit project that detects fraudulent credit card transactions in real-time.  
-This app uses a trained ML model (`fraud_detection_model.jb`) and encoder (`label_encoder.jb`) to classify transactions as Legit ✅ or Fraud 🚨.  
+Ever wondered if you could spot a fraudulent credit card transaction before it happens?
+Well, now you can! This Machine Learning + Streamlit app instantly classifies transactions as Legit ✅ or Fraud 🚨 using advanced ML algorithms.
 
+Built with Python, Random Forest, Logistic Regression, and a sleek Streamlit dashboard, this project brings AI-powered fraud detection to your fingertips.
 
-## 🚀 Features
-- 🔍 Fraud detection using trained ML models  
-- 📊 Interactive Streamlit web dashboard  
-- 🧠 Pre-trained Random Forest & Logistic Regression models  
-- 📁 Dataset support for custom inputs  
-- 🌐 Runs locally with just a few commands  
+## 🌟 Features
 
+🔍 Real-time Fraud Detection – Instantly detect suspicious transactions
+
+🧠 Smart ML Models – Pre-trained Random Forest & Logistic Regression models
+
+📊 Interactive Dashboard – User-friendly Streamlit interface
+
+📁 Custom Dataset Support – Test your own transactions
+
+🌐 Local Deployment – Run locally with just a few commands
 
 ## 📸 Screenshots
+## 🏠 Home Page
+<img width="790" height="1243" alt="Home Page Screenshot" src="https://github.com/user-attachments/assets/b640fc24-9f1a-44e4-9680-aaeb17d4525b" />
+## 📊 Prediction Page
+<img width="2559" height="1529" alt="Prediction Page Screenshot" src="https://github.com/user-attachments/assets/a3a7a1a4-e100-406d-bdfa-34bf19f1b587" />
 
-### 🏠 Home Page  
+## 🛠️ Installation & Usage
 
-<img width="790" height="1243" alt="Screenshot 2025-09-14 204947" src="https://github.com/user-attachments/assets/b640fc24-9f1a-44e4-9680-aaeb17d4525b" />
+1️⃣ Create & activate a virtual environment
 
+Windows:
 
-
-### 📊 Prediction Page  
-
-<img width="2559" height="1529" alt="Screenshot 2025-09-14 205552" src="https://github.com/user-attachments/assets/a3a7a1a4-e100-406d-bdfa-34bf19f1b587" />
-
+python -m venv venv
+.\venv\Scripts\activate
 
 
-## How to use -
-
-1. Create and activate virtual environment:
+Mac/Linux:
 
 python3 -m venv venv
 source venv/bin/activate
 
 
-2. Install dependencies:
+2️⃣ Install dependencies
 
 pip install -r requirements.txt
 
 
-3. Run the app:
+3️⃣ Run the app
 
 streamlit run app.py
 
 
+Now, explore the dashboard and start detecting fraud like a pro! 🚀
 
-### 📬 Author
+## 💡 How It Works
+
+Input transaction data manually or via CSV
+
+ML model analyzes patterns and flags anomalies
+
+Instantly see if the transaction is Legit ✅ or Fraud 🚨
+
+Powered by Random Forest and Logistic Regression, this system learns from past transaction patterns to make smart predictions.
+
+📬 Author
 
 👨‍💻 Omkar Sharad Nagare
 
-LinkedIn - https://www.linkedin.com/in/omkar-nagare-0b9375278/
+LinkedIn: omkar-nagare
 
-Portfolio - https://www.zapfolio.in/omkar-dip
+Portfolio: Zapfolio
 
+📝 License
 
+MIT License © 2025 Omkar Sharad Nagare
 
-
-#### MIT License  
-
-Copyright (c) 2025 Omkar Sharad Nagare  
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software to use, modify, and distribute with proper credit.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software to use, modify, and distribute with proper credit.
