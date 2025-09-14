@@ -26,7 +26,7 @@ This app uses a trained ML model (`fraud_detection_model.jb`) and encoder (`labe
 
 
 
-How to use -
+## How to use -
 
 1. Create and activate virtual environment:
 
@@ -45,7 +45,7 @@ streamlit run app.py
 
 
 
-📬 Author
+### 📬 Author
 
 👨‍💻 Omkar Sharad Nagare
 
@@ -56,7 +56,7 @@ Portfolio - https://www.zapfolio.in/omkar-dip
 
 
 
-MIT License  
+#### MIT License  
 
 Copyright (c) 2025 Omkar Sharad Nagare  
 
