@@ -18,8 +18,9 @@ This app uses a trained ML model (`fraud_detection_model.jb`) and encoder (`labe
 
 <img width="790" height="1243" alt="Screenshot 2025-09-14 204947" src="https://github.com/user-attachments/assets/b640fc24-9f1a-44e4-9680-aaeb17d4525b" />
 
-### 📊 Prediction Page  
 
+
+### 📊 Prediction Page  
 
 <img width="2559" height="1529" alt="Screenshot 2025-09-14 205552" src="https://github.com/user-attachments/assets/a3a7a1a4-e100-406d-bdfa-34bf19f1b587" />
 
