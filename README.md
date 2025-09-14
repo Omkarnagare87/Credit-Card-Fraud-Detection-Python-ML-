@@ -24,13 +24,41 @@ This app uses a trained ML model (`fraud_detection_model.jb`) and encoder (`labe
 
 <img width="2559" height="1529" alt="Screenshot 2025-09-14 205552" src="https://github.com/user-attachments/assets/a3a7a1a4-e100-406d-bdfa-34bf19f1b587" />
 
-## 📂 Project Structure
 
-Fraud_Detection_System/
-│── app.py # Streamlit application
-│── fraud_detection_model.jb # Pre-trained ML model
-│── label_encoder.jb # Label encoder for preprocessing
-│── requirements.txt # Dependencies list
-│── dataset.csv # Dataset (optional, if not confidential)
-│── images/ # Screenshots & GIFs
-│── README.md # Project documentation
+
+How to use -
+
+1. Create and activate virtual environment:
+
+python3 -m venv venv
+source venv/bin/activate
+
+
+2. Install dependencies:
+
+pip install -r requirements.txt
+
+
+3. Run the app:
+
+streamlit run app.py
+
+
+
+📬 Author
+
+👨‍💻 Omkar Sharad Nagare
+
+LinkedIn - https://www.linkedin.com/in/omkar-nagare-0b9375278/
+
+Portfolio - https://www.zapfolio.in/omkar-dip
+
+
+
+
+MIT License  
+
+Copyright (c) 2025 Omkar Sharad Nagare  
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software to use, modify, and distribute with proper credit.
